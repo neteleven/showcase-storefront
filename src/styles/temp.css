@@ -1,0 +1,119 @@
+.invalid-tenant-page {
+    @apply w-full text-darkGray items-center h-screen  text-center;
+}
+
+.rotatable {
+    border-radius: 2px;
+    transition: all 2s linear;
+}
+
+.rotatable.rotate {
+    transform: rotate(180deg);
+}
+
+.subscribe {
+    
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+    background-image: url('/src/assets/winewithredbackground.svg');
+    background-repeat: no-repeat;
+    background-position: right 0px;
+    background-size: 50% 150%;
+}
+
+.subscribe::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    margin-top: -100px;
+}
+
+
+.close-button {
+  height: 20px;
+  color: #8e9099;
+  rotate: 45deg;
+  text-align: right;
+  width: 100%;
+  cursor: pointer;
+}
+
+.cta-button {
+    cursor: pointer;
+    border-radius: 0.75rem !important;
+    color: #1f1f1f !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+    font-weight: 600 !important;
+}
+
+.cta-button:hover {
+    background-color: #E03F58 !important;
+}
+
+.cta-button-checked {
+    border-radius: 4px !important;
+    background-color: #219653 !important;
+    color: white !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+    font-weight: 600 !important;
+    box-shadow: none !important;
+    cursor: pointer;
+}
+
+input[type='checkbox'] {
+    accent-color: #E9154B;
+}
+
+.MuiButtonBase-root.MuiRadio-root.MuiRadio-colorDefault.PrivateSwitchBase-root.MuiRadio-root.MuiRadio-colorDefault.Mui-checked.MuiRadio-root.MuiRadio-colorDefault span {
+    background-color: #E9154B !important;
+}
+
+.grey-rounded-container {
+    @apply bg-aliceBlue rounded;
+}
+
+.grid-column-title {
+    @apply !text-manatee text-[14px]/[22px] font-normal;
+}
+
+.bordered-container {
+    @apply border rounded border-quartz;
+}
+
+.filter-white {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+.home_category_shadow {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.standard_box_shadow {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.hp_teaser_box_shadow {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+}
+
+.hp_teaser_box_shadow_white {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.main_bg_gradient {
+    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+    background-blend-mode: screen;
+}
+
+.tooltip {
+    @apply invisible absolute;
+}
+
+.tooltipped:hover .tooltip {
+    @apply visible z-50;
+}
