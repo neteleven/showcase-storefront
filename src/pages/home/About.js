@@ -31,11 +31,11 @@ const About = () => {
             className="home_about"
         >
             <div className="w-full lg:w-3/5 h-fit flex flex-col text-eerieBlack pt-40 md:pt-52 lg:pt-28 px-4 md:px-16 lg:pr-0 xl:pl-64 xl:pt-36">
-                <div className="text-5xl md:!text-6xl !leading-[60px] lg:!text-7xl font-inter font-semibold md:leading-[64px] block">
+                <div className="text-5xl md:!text-6xl !leading-[60px] lg:!text-7xl font-semibold md:leading-[64px] block">
                     Erleben Sie den <span className="text-primary">Luxus</span><br/> mit neteleven <span
                     className="text-primary">Wein</span>
                 </div>
-                <div className="text-[18px] leading-[30px] font-inter font-normal pt-[24px] md:max-w-[525px]">
+                <div className="text-[18px] leading-[30px] font-normal pt-[24px] md:max-w-[525px]">
                     Unsere exquisiten, handverlesenen Weine spiegeln die Eleganz und Qualität wider, die Sie von
                     neteleven erwarten
                 </div>

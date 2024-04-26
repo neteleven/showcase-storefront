@@ -254,10 +254,10 @@ const Navbar = () => {
   return (
     <header className="header">
       {/* Dektop language and currency selection */}
-      <div className="desktop_only_flex font-inter text-sm text-white items-center">
+      <div className="desktop_only_flex text-sm text-white items-center">
         <div className='flex items-center'>
           <span className='world-icon'></span>
-          <span className='hidden lg:inline'>{fields.siteLabel}:</span>
+          <span className='inline'>{fields.siteLabel}:</span>
           <select
             className="bg-primary w-38 mr-[22px]"
             onChange={handleSiteChange}
@@ -276,7 +276,7 @@ const Navbar = () => {
           </select>
         </div>
         <div>
-          <span className='hidden lg:inline'>{fields.languageLabel}:</span>
+          <span className='inline'>{fields.languageLabel}:</span>
           <select
             className="bg-primary"
             onChange={(event) => setLanguage(event.target.value)}
@@ -294,7 +294,7 @@ const Navbar = () => {
           </select>
         </div>
         <div className="ml-[22px]">
-              <span className='hidden lg:inline'>{fields.currencyLabel}:</span>
+              <span className='inline'>{fields.currencyLabel}:</span>
           <select
             id="currency-select"
             value={activeCurrency.code !== undefined ? activeCurrency.code : ''}
@@ -315,7 +315,7 @@ const Navbar = () => {
       </div>
 
       {/* Dektop navigation selection */}
-      <div className="desktop_only_flex font-inter font-normal text-sm text-white">
+      <div className="desktop_only_flex font-normal text-sm text-white">
         {!user ? (
           <ul className="flex items-center">
             <li className="px-4 flex cursor-pointer" onClick={handleOpenCart}>
@@ -396,7 +396,7 @@ const Navbar = () => {
 
               <div className="mobile_only_flex w-2/5 sm:w-1/3">
                   <Link to={homeUrl()} className="flex">
-                      <img src="/img/n11logo.png"/>
+                      <img src="/img/n11logo.png" alt="logo"/>
                   </Link>
               </div>
 
