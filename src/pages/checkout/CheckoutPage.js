@@ -339,12 +339,12 @@ const Coupon = () => {
                             </div>
                         ) : (
                             <>
-                                <div className="font-inter font-bold text-2xl text-tinBlue pb-4 mb-6">
+                                <div className="font-bold text-2xl text-tinBlue pb-4 mb-6">
                                     Redeem Points
                                 </div>
 
                                 <div className="pb-4">
-                                    <div className="font-inter font-bold text-xl text-tinBlue mb-2">
+                                    <div className="font-bold text-xl text-tinBlue mb-2">
                                         Available Coupons:
                                     </div>
                                 </div>
@@ -353,7 +353,7 @@ const Coupon = () => {
                                         redeemOptions.map((card) => <Card key={card.id} {...card} />)}
                                 </div>
                                 <div className="mt-6">
-                                    <div className="font-inter font-bold text-xl text-tinBlue">
+                                    <div className="font-bold text-xl text-tinBlue">
                                         Points:
                                     </div>
                                 </div>

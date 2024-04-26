@@ -137,7 +137,7 @@ export const CartMobileItem = ({ cartItem }) => {
 
         <span
               className={
-                  ' text-brightGreen font-inter font-bold cart-product-stock w-[80px] ' +
+                  ' text-brightGreen  font-bold cart-product-stock w-[80px] ' +
                   (inStock
                       ? 'text-limeGreen'
                       : 'text-primaryBlue')
@@ -220,7 +220,7 @@ export const CartProductBasicInfo = ({ cart }) => {
         <div className="cart-product-stock-wrapper">
           <span
               className={
-                  ' text-brightGreen font-inter font-bold cart-product-stock ' +
+                  ' text-brightGreen  font-bold cart-product-stock ' +
                   (inStock
                       ? 'text-limeGreen'
                       : 'text-primaryBlue')

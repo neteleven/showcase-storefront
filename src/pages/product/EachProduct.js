@@ -29,13 +29,13 @@ const EachProduct = ({ item, available, rating, productCount }) => {
         navigate(`/${userTenant}/product/details/${item.id}`)
     }, [userTenant, item.id])
     return (
-        <div className="font-inter p-4 h-full flex flex-col gap-4 justify-between cursor-pointer" onClick={handleProductDetail}>
+        <div className="p-4 h-full flex flex-col gap-4 justify-between cursor-pointer" onClick={handleProductDetail}>
           <div className='flex flex-col gap-4'>
             <div className="w-full h-5 justify-between hidden lg:flex">
                 {item.productType !== 'PARENT_VARIANT' && (
                     <div
                         className={available ? "text-limeGreen" :
-                            "text-red-500" + " font-inter font-medium float-right lg:float-none"
+                            "text-red-500" + " font-medium float-right lg:float-none"
                         }
                     >
                         {available ? 'In Stock' : 'Out Of Stock'}
@@ -55,7 +55,7 @@ const EachProduct = ({ item, available, rating, productCount }) => {
                 <br/>
                 <div
                     className={
-                        'text-limeGreen font-inter font-medium float-right lg:float-none'
+                        'text-limeGreen font-medium float-right lg:float-none'
                     }
                 >
                     {available ? 'In Stock' : 'Out Of Stock'}

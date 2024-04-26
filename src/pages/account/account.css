@@ -1,9 +1,9 @@
 li.item {
-    @apply w-full h-[44px] p-3 font-inter text-base font-medium text-eerieBlack;
+    @apply w-full h-[44px] p-3 text-base font-medium text-eerieBlack;
 }
 
 li.first-item {
-    @apply w-full h-[44px] p-3 font-inter text-base font-medium text-eerieBlack;
+    @apply w-full h-[44px] p-3 text-base font-medium text-eerieBlack;
 }
 
 li.item-divide-line {
@@ -46,7 +46,7 @@ li.index-item-active {
 }
 
 .add-new-photo {
-    @apply text-[14px] leading-[18px] text-primaryBlue font-inter font-semibold underline;
+    @apply text-[14px] leading-[18px] text-primaryBlue font-semibold underline;
 }
 
 .personal-info-content,
@@ -71,11 +71,11 @@ li.index-item-active {
 }
 
 .action-save-button {
-    @apply mt-6 sm:mt-0 h-12 w-full sm:w-[327px] bg-tinBlue text-[white] font-inter font-bold text-[14px] leading-[14px];
+    @apply mt-6 sm:mt-0 h-12 w-full sm:w-[327px] bg-tinBlue text-[white] font-bold text-[14px] leading-[14px];
 }
 
 .action-discard-button {
-    @apply mt-6 sm:mt-0 h-12 w-full sm:w-[327px] text-tinBlue font-inter font-bold text-[14px] leading-[14px] bg-bgWhite;
+    @apply mt-6 sm:mt-0 h-12 w-full sm:w-[327px] text-tinBlue font-bold text-[14px] leading-[14px] bg-bgWhite;
 }
 
 .account-action-bar {
@@ -110,11 +110,11 @@ li.index-item-active {
 
 .account-personal-caption,
 .account-summary-title {
-    @apply xl:text-[24px] lg:text-[20px] md:text-[18px] text-[24px] leading-[40px] lg:leading-[40px] md:leading-[30px] font-bold font-inter text-tinBlue;
+    @apply xl:text-[24px] lg:text-[20px] md:text-[18px] text-[24px] leading-[40px] lg:leading-[40px] md:leading-[30px] font-bold text-tinBlue;
 }
 
 .account-edit-btn {
-    @apply font-inter font-semibold text-[14px] leading-[18px] text-primaryBlue;
+    @apply font-semibold text-[14px] leading-[18px] text-primaryBlue;
 }
 
 .profile-edit-btn-arrow {
@@ -122,7 +122,7 @@ li.index-item-active {
 }
 
 .profile-items {
-    @apply text-darkGray text-base font-normal font-inter;
+    @apply text-darkGray text-base font-normal ;
 }
 
 .profile-items > p {
@@ -130,19 +130,19 @@ li.index-item-active {
 }
 
 .profile-items-info {
-    @apply font-inter text-[black] font-normal text-base;
+    @apply text-[black] font-normal text-base;
 }
 
 .payment-title {
-    @apply font-inter text-[16px] leading-[20px] font-normal;
+    @apply text-[16px] leading-[20px] font-normal;
 }
 
 .spent-amount {
-    @apply font-inter text-[24px] leading-[40px] font-bold;
+    @apply text-[24px] leading-[40px] font-bold;
 }
 
 .limit-status-text {
-    @apply font-inter text-[14px] leading-[14px] font-normal font-semibold text-darkGray;
+    @apply text-[14px] leading-[14px] font-normal font-semibold text-darkGray;
 }
 
 .oustanding,
@@ -159,11 +159,11 @@ li.index-item-active {
 }
 
 .price {
-    @apply text-[20px] leading-[32px] font-bold font-inter;
+    @apply text-[20px] leading-[32px] font-bold ;
 }
 
 .location_item {
-    @apply mb-6 border border-lightGray p-6 font-inter h-60 md:h-40 md:flex;
+    @apply mb-6 border border-lightGray p-6 h-60 md:h-40 md:flex;
 }
 
 .location-title {
@@ -179,7 +179,7 @@ li.index-item-active {
 }
 
 .portal-title {
-    @apply text-[24px] leading-[40px] font-bold font-inter text-tinBlue;
+    @apply text-[24px] leading-[40px] font-bold text-tinBlue;
 }
 
 .portal-caption {
@@ -187,7 +187,7 @@ li.index-item-active {
 }
 
 .portal-action-btn {
-    @apply font-inter font-semibold text-[14px] leading-[18px] text-primaryBlue;
+    @apply font-semibold text-[14px] leading-[18px] text-primaryBlue;
 }
 
 .portal-caption-content {
@@ -195,7 +195,7 @@ li.index-item-active {
 }
 
 .SavedCarts-Mobile-Header {
-    @apply py-[5px] mb-[10px] font-inter font-bold;
+    @apply py-[5px] mb-[10px] font-bold;
 }
 
 .label {
@@ -208,7 +208,7 @@ li.index-item-active {
 }
 
 .company-input {
-    @apply w-full rounded h-[38px] py-[7px] px-[13px] font-inter font-normal;
+    @apply w-full rounded h-[38px] py-[7px] px-[13px] font-normal;
 }
 
 .company-label {
@@ -216,7 +216,7 @@ li.index-item-active {
 }
 
 .sub-label {
-    @apply font-inter font-normal text-[14px] leading-[21px];
+    @apply font-normal text-[14px] leading-[21px];
 }
 
 .company-info {
@@ -229,7 +229,7 @@ li.index-item-active {
 
 .mobile-bar {
     background-image: conic-gradient(from 180deg at 50% 70%, #9bb9ca, #2c5c77);
-    @apply h-[72px] w-full p-6 font-inter font-semibold text-[24px] leading-[24px] pb-6 text-white;
+    @apply h-[72px] w-full p-6 font-semibold text-[24px] leading-[24px] pb-6 text-white;
 }
 
 .switch-item {

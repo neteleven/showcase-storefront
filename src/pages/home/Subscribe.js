@@ -16,7 +16,7 @@ const Subscribe = () => {
                 </form>
 
                 <button
-                    className="px-10 py-3.5 font-semibold bg-primary text-white border-[3px] border-black rounded-xl text-center font-inter text-[14px]">JETZT
+                    className="px-10 py-3.5 font-semibold bg-primary text-white border-[3px] border-black rounded-xl text-center text-[14px]">JETZT
                     ABONNIEREN
                 </button>
             </div>

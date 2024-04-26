@@ -10,10 +10,10 @@ const EachService = (props) => {
       <div className="w-fit">
         <img src={props.src} className="h-10 md:mx-auto filter-white" alt=""></img>
       </div>
-      <div className="text-primary font-inter font-semibold text-2xl">
+      <div className="text-primary font-semibold text-2xl">
         {props.title}
       </div>
-      <div className="font-inter font-normal text-lg">
+      <div className="font-normal text-lg">
         {props.content}
       </div>
     </div>

@@ -1,5 +1,5 @@
 .storefinderTable {
-    @apply my-8 md:my-12 mx-4 font-inter xl:mx-24;
+    @apply my-8 md:my-12 mx-4 xl:mx-24;
     display: flex;
     flex-direction: column;
     align-items: center;

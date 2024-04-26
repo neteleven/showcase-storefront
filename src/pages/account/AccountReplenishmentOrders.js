@@ -50,10 +50,10 @@ const RepleOrderItem = ({
             <div className="flex justify-between">
                 <span>{order_number}</span>
                 <div className="flex">
-                    <div className="font-inter font-semibold text-[14px] underline">
+                    <div className="font-semibold text-[14px] underline">
                         Edit
                     </div>
-                    <div className="font-inter font-semibold text-[14px] underline ml-6">
+                    <div className="font-semibold text-[14px] underline ml-6">
                         Cancel
                     </div>
                 </div>
@@ -91,37 +91,37 @@ const ReplenishmentOrders = () => {
                         <TableRow className="!py-6">
                             <TableCell
                                 align="left"
-                                className="font-inter !font-bold text-base"
+                                className="!font-bold text-base"
                             >
                                 Order Number
                             </TableCell>
                             <TableCell
                                 align="left"
-                                className="font-inter !font-bold text-base"
+                                className="!font-bold text-base"
                             >
                                 PO#
                             </TableCell>
                             <TableCell
                                 align="left"
-                                className="font-inter !font-bold text-base"
+                                className="!font-bold text-base"
                             >
                                 Start On
                             </TableCell>
                             <TableCell
                                 align="left"
-                                className="font-inter !font-bold text-base"
+                                className="!font-bold text-base"
                             >
                                 Frequency
                             </TableCell>
                             <TableCell
                                 align="left"
-                                className="font-inter !font-bold text-base"
+                                className="!font-bold text-base"
                             >
                                 Next Order Date
                             </TableCell>
                             <TableCell
                                 align="left"
-                                className="font-inter !font-bold text-base"
+                                className="!font-bold text-base"
                             >
                                 Total
                             </TableCell>
@@ -157,11 +157,11 @@ const ReplenishmentOrders = () => {
                                 <TableCell align="left" className="!py-6">
                                     <div className="flex">
                                         <Link to={editReplenishmentOrdersUrl()}>
-                                            <div className="font-inter font-semibold text-[14px] underline">
+                                            <div className="font-semibold text-[14px] underline">
                                                 Edit
                                             </div>
                                         </Link>
-                                        <div className="font-inter font-semibold text-[14px] underline ml-6">
+                                        <div className="font-semibold text-[14px] underline ml-6">
                                             Cancel
                                         </div>
                                     </div>

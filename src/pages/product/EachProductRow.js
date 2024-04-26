@@ -46,13 +46,13 @@ const EachProductRow = ({ item, type, available, rating, productCount }) => {
     }
   }
   return (
-    <div className="standard_box_shadow flex h-full font-inter rounded-xl bg-aliceBlue p-4 gap-4">
+    <div className="standard_box_shadow flex h-full rounded-xl bg-aliceBlue p-4 gap-4">
       <div className="flex w-1/4 flex-col justify-between">
         <img src={imageSrc} alt='' className=" aspect-square h-fit rounded-xl cursor-pointer" onClick={handleProductDetail}/>
       </div>
       <div className="flex flex-col w-1/2">
         <div
-          className={'text-limeGreen font-inter font-medium float-right lg:float-none'}
+          className={'text-limeGreen font-medium float-right lg:float-none'}
         >
           {available > 0 ? 'In Stock' : 'Out Of Stock'}
         </div>

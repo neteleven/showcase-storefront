@@ -59,7 +59,7 @@ const Navbar = () => {
                 <div className="pt-12 pb-8 items-center ">
                     {user ? (
                         <div
-                            className="h-[75px] border-y w-full justify-between flex text-gray text-center items-center font-inter ">
+                            className="h-[75px] border-y w-full justify-between flex text-gray text-center items-center  ">
                             <div className="flex">
                                 <HiOutlineUserCircle size={25}/>
                                 <div className="pl-2">{user.username}</div>
@@ -85,7 +85,7 @@ const Navbar = () => {
                 </div>
                 {user && (
                     <div
-                        // className="w-full h-[59px] border-y flex justify-between items-center mt-6 font-inter text-base">
+                        // className="w-full h-[59px] border-y flex justify-between items-center mt-6  text-base">
                         className=" flex justify-between py-6 border-b last:border-b-0 text-xl">
                         Site
                         <select className="text-tinBlue appearance-none">
@@ -103,7 +103,7 @@ const Navbar = () => {
                     </div>
                 )}
                 <div 
-                    // className="w-full h-[59px] border-y flex justify-between items-center mt-6 font-inter text-base">
+                    // className="w-full h-[59px] border-y flex justify-between items-center mt-6  text-base">
                     className=" flex justify-between py-6 border-b last:border-b-0 text-xl">
                     Language
                     <select className="text-tinBlue appearance-none">

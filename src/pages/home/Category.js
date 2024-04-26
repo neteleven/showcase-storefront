@@ -7,7 +7,7 @@ const EachCategory = (props) => {
         <div className='bg-aliceBlue p-8 md:p-4 flex flex-col md:flex-row lg:flex-col gap-4 md:gap-8 standard_box_shadow rounded-xl'>
             <img src={props.src} alt="" className="relative w-fit md:w-1/3 lg:w-fit aspect-square object-cover rounded-xl"/>
             <div className="md:flex md:flex-col md:gap-8">
-                <div className="font-inter font-semibold text-2xl leading-[32px]">
+                <div className="font-semibold text-2xl leading-[32px]">
                     {props.title}
                 </div>
                 <div className="font-normal text-lg">

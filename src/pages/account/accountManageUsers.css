@@ -1,5 +1,5 @@
 .action-discard-button {
-    @apply mt-6 sm:mt-0 h-12 w-full sm:w-[327px] text-tinBlue font-inter font-bold text-[14px] leading-[14px] bg-bgWhite;
+    @apply mt-6 sm:mt-0 h-12 w-full sm:w-[327px] text-tinBlue font-bold text-[14px] leading-[14px] bg-bgWhite;
 }
 
 .create-customer-wrapper {

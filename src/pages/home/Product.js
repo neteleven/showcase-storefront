@@ -16,8 +16,8 @@ const EachProduct = (props) => {
                 <div
                     className={
                         props.stock === 'Low'
-                            ? 'text-primary font-inter font-bold text-[12px] pt-[6px]'
-                            : 'text-brightGreen font-inter font-bold text-[12px] pt-[6px]'
+                            ? 'text-primary font-bold text-[12px] pt-[6px]'
+                            : 'text-brightGreen font-bold text-[12px] pt-[6px]'
                     }
                 >
                     {props.stock} Stock
@@ -30,7 +30,7 @@ const EachProduct = (props) => {
             <div className="pt-[47px] w-[260px] h-[240px] items-center mx-auto ">
                 <img src={props.src} className="h-full mx-auto"/>
             </div>
-            <div className="mt-11 w-full font-inter">
+            <div className="mt-11 w-full ">
                 <div className="text-left text-[12px] leading-[12px] text-gray">
                     {props.category}
                 </div>
@@ -124,12 +124,12 @@ const ProductTitle = (props) => {
     return (
         <>
             {/* for dektop content */}
-            <div className="desktop_only md:pt-24 font-inter font-bold text-2xl text-center">
+            <div className="desktop_only md:pt-24 font-bold text-2xl text-center">
                 {/*{props.auth ? 'Products For You' : 'Browse Popular Products'}*/}
             </div>
 
             {/* for mobile content */}
-            <div className="mobile_only pt-12 font-inter font-bold text-2xl text-center">
+            <div className="mobile_only pt-12 font-bold text-2xl text-center">
                 {props.auth ? 'Products For You' : 'Browse Popular Products'}
             </div>
         </>
@@ -146,8 +146,8 @@ const ProductSlider = ({auth}) => {
                         <div
                             className={
                                 item.stock == 'Low'
-                                    ? 'text-primary font-inter font-bold text-[12px] pt-[6px]'
-                                    : 'text-brightGreen font-inter font-bold text-[12px] pt-[6px]'
+                                    ? 'text-primary font-bold text-[12px] pt-[6px]'
+                                    : 'text-brightGreen font-bold text-[12px] pt-[6px]'
                             }
                         >
                             {item.stock} Stock
@@ -160,7 +160,7 @@ const ProductSlider = ({auth}) => {
                     <div className="pt-[47px] w-[260px] h-[240px] items-center mx-auto ">
                         <img src={item.src} className="h-full mx-auto"/>
                     </div>
-                    <div className="mt-11 w-full font-inter">
+                    <div className="mt-11 w-full ">
                         <div className="text-left text-[12px] leading-[12px] text-gray">
                             {item.category}
                         </div>

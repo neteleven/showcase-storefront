@@ -95,7 +95,7 @@ const CartActionBar = ({ view }) => {
   return (
     <div
       className={
-        'cart-action-bar-wrapper px-4 py-3 bg-aliceBlue rounded-xl standard_box_shadow setting gap-6 flex justify-between font-inter text-base font-normal ' + (view ? 'lg:block hidden' : 'lg:hidden')
+        'cart-action-bar-wrapper px-4 py-3 bg-aliceBlue rounded-xl standard_box_shadow setting gap-6 flex justify-between text-base font-normal ' + (view ? 'lg:block hidden' : 'lg:hidden')
       }
     >
       <CartActionContent view={view} />
