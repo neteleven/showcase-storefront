@@ -1,5 +1,5 @@
 body {
-    @apply bg-bgGradient ;
+    @apply bg-bgGradient font-inter;
     margin: 0px;
     min-width: 375px;
     background-blend-mode: screen;
