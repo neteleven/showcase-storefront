@@ -257,7 +257,7 @@ const Navbar = () => {
       <div className="desktop_only_flex text-sm text-white items-center">
         <div className='flex items-center'>
           <span className='world-icon'></span>
-          <span className='inline'>{fields.siteLabel}:</span>
+          <span className='md:hidden lg:inline'>{fields.siteLabel}: </span>
           <select
             className="bg-primary w-38 mr-[22px]"
             onChange={handleSiteChange}
@@ -276,7 +276,7 @@ const Navbar = () => {
           </select>
         </div>
         <div>
-          <span className='inline'>{fields.languageLabel}:</span>
+          <span className='md:hidden lg:inline'>{fields.languageLabel}:{' - '}</span>
           <select
             className="bg-primary"
             onChange={(event) => setLanguage(event.target.value)}
@@ -294,7 +294,7 @@ const Navbar = () => {
           </select>
         </div>
         <div className="ml-[22px]">
-              <span className='inline'>{fields.currencyLabel}:</span>
+              <span className='md:hidden lg:inline'>{fields.currencyLabel}: </span>
           <select
             id="currency-select"
             value={activeCurrency.code !== undefined ? activeCurrency.code : ''}
