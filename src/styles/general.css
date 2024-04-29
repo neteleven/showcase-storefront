@@ -1,6 +1,5 @@
 body {
-    @apply bg-bgGradient font-inter;
-    margin: 0px;
+    @apply bg-bgGradient font-inter m-0;
     min-width: 375px;
     background-blend-mode: screen;
     -webkit-font-smoothing: antialiased;

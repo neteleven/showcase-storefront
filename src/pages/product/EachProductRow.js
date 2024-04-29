@@ -67,7 +67,7 @@ const EachProductRow = ({ item, type, available, rating, productCount }) => {
           <ReactStars size={16} value={rating} color2={'#FBB13C'} />(
           {productCount})
         </div>
-        <div className="text-sm mt-4 text-eerieBlack text-base cursor-pointer" onClick={handleProductDetail}>
+        <div className="text-sm mt-4 text-eerieBlack cursor-pointer" onClick={handleProductDetail}>
           <span>{trimmedDescription}</span>
         </div>
       </div>
@@ -113,7 +113,7 @@ const EachProductRow = ({ item, type, available, rating, productCount }) => {
                   className="cursor-pointer cta-button bg-yellow flex items-center justify-center px-10 py-4 transition-all duration-150 ease-in"
                   onClick={handleAddToCart}
                   >
-                  <span className="text-aliceBlue text-lg">ADD TO CART</span>
+                  <span className="text-aliceBlue bg-primary text-lg">ADD TO CART</span>
                 </div>
                 <div
                   className="cursor-pointer cta-button bg-lightGray flex items-center justify-center px-5 py-2 w-fit hover:!bg-gray transition-all duration-150 ease-in"

@@ -2,7 +2,7 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-
+@import './colors.css';
 @import './general.css';
 @import './layout.css';
 @import './typography.css';
